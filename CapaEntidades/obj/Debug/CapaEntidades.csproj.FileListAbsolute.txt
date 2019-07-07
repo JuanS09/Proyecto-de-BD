@@ -1,0 +1,10 @@
+C:\Users\Juan Manuel\Desktop\Programacion en BD\CapaEntidades\bin\Debug\CapaEntidades.dll
+C:\Users\Juan Manuel\Desktop\Programacion en BD\CapaEntidades\bin\Debug\CapaEntidades.pdb
+C:\Users\Juan Manuel\Desktop\Programacion en BD\CapaEntidades\obj\Debug\CapaEntidades.csprojResolveAssemblyReference.cache
+C:\Users\Juan Manuel\Desktop\Programacion en BD\CapaEntidades\obj\Debug\CapaEntidades.dll
+C:\Users\Juan Manuel\Desktop\Programacion en BD\CapaEntidades\obj\Debug\CapaEntidades.pdb
+F:\Programacion en BD\CapaEntidades\bin\Debug\CapaEntidades.dll
+F:\Programacion en BD\CapaEntidades\bin\Debug\CapaEntidades.pdb
+F:\Programacion en BD\CapaEntidades\obj\Debug\CapaEntidades.csprojResolveAssemblyReference.cache
+F:\Programacion en BD\CapaEntidades\obj\Debug\CapaEntidades.dll
+F:\Programacion en BD\CapaEntidades\obj\Debug\CapaEntidades.pdb
