@@ -1,0 +1,16 @@
+M:\Programacion en BD\Conexiones\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
+J:\Programacion en BD\Conexiones\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\Juan Manuel\Desktop\usb\Programacion en BD\Conexiones\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
+F:\Programacion en BD\Conexiones\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
+F:\Programacion en BD\Conexiones\bin\Debug\Conexiones.dll
+F:\Programacion en BD\Conexiones\bin\Debug\Conexiones.pdb
+F:\Programacion en BD\Conexiones\bin\Debug\CapaEntidades.dll
+F:\Programacion en BD\Conexiones\bin\Debug\CapaEntidades.pdb
+F:\Programacion en BD\Conexiones\obj\Debug\Conexiones.dll
+F:\Programacion en BD\Conexiones\obj\Debug\Conexiones.pdb
+J:\Programacion en BD\Conexiones\bin\Debug\Conexiones.dll
+J:\Programacion en BD\Conexiones\bin\Debug\Conexiones.pdb
+J:\Programacion en BD\Conexiones\bin\Debug\CapaEntidades.dll
+J:\Programacion en BD\Conexiones\bin\Debug\CapaEntidades.pdb
+J:\Programacion en BD\Conexiones\obj\Debug\Conexiones.dll
+J:\Programacion en BD\Conexiones\obj\Debug\Conexiones.pdb

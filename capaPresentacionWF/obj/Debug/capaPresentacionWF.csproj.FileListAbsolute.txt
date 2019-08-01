@@ -1,0 +1,40 @@
+M:\Programacion en BD\capaPresentacionWF\bin\Debug\capaPresentacionWF.exe.config
+M:\Programacion en BD\capaPresentacionWF\obj\Debug\capaPresentacionWF.csprojResolveAssemblyReference.cache
+M:\Programacion en BD\capaPresentacionWF\obj\Debug\capaPresentacionWF.fRecursos.resources
+M:\Programacion en BD\capaPresentacionWF\obj\Debug\capaPresentacionWF.Properties.Resources.resources
+M:\Programacion en BD\capaPresentacionWF\obj\Debug\capaPresentacionWF.csproj.GenerateResource.Cache
+J:\Programacion en BD\capaPresentacionWF\bin\Debug\capaPresentacionWF.exe.config
+J:\Programacion en BD\capaPresentacionWF\obj\Debug\capaPresentacionWF.csprojResolveAssemblyReference.cache
+J:\Programacion en BD\capaPresentacionWF\obj\Debug\capaPresentacionWF.fRecursos.resources
+J:\Programacion en BD\capaPresentacionWF\obj\Debug\capaPresentacionWF.Properties.Resources.resources
+J:\Programacion en BD\capaPresentacionWF\obj\Debug\capaPresentacionWF.csproj.GenerateResource.Cache
+C:\Users\Juan Manuel\Desktop\usb\Programacion en BD\capaPresentacionWF\bin\Debug\capaPresentacionWF.exe.config
+C:\Users\Juan Manuel\Desktop\usb\Programacion en BD\capaPresentacionWF\obj\Debug\capaPresentacionWF.csprojResolveAssemblyReference.cache
+C:\Users\Juan Manuel\Desktop\usb\Programacion en BD\capaPresentacionWF\obj\Debug\capaPresentacionWF.fRecursos.resources
+C:\Users\Juan Manuel\Desktop\usb\Programacion en BD\capaPresentacionWF\obj\Debug\capaPresentacionWF.Properties.Resources.resources
+C:\Users\Juan Manuel\Desktop\usb\Programacion en BD\capaPresentacionWF\obj\Debug\capaPresentacionWF.csproj.GenerateResource.Cache
+F:\Programacion en BD\capaPresentacionWF\bin\Debug\capaPresentacionWF.exe.config
+F:\Programacion en BD\capaPresentacionWF\obj\Debug\capaPresentacionWF.csprojResolveAssemblyReference.cache
+F:\Programacion en BD\capaPresentacionWF\obj\Debug\capaPresentacionWF.fRecursos.resources
+F:\Programacion en BD\capaPresentacionWF\obj\Debug\capaPresentacionWF.Properties.Resources.resources
+F:\Programacion en BD\capaPresentacionWF\obj\Debug\capaPresentacionWF.csproj.GenerateResource.Cache
+F:\Programacion en BD\capaPresentacionWF\bin\Debug\capaPresentacionWF.exe
+F:\Programacion en BD\capaPresentacionWF\bin\Debug\capaPresentacionWF.pdb
+F:\Programacion en BD\capaPresentacionWF\bin\Debug\CapaEntidades.dll
+F:\Programacion en BD\capaPresentacionWF\bin\Debug\CapaNegocio.dll
+F:\Programacion en BD\capaPresentacionWF\bin\Debug\Conexiones.dll
+F:\Programacion en BD\capaPresentacionWF\bin\Debug\CapaEntidades.pdb
+F:\Programacion en BD\capaPresentacionWF\bin\Debug\CapaNegocio.pdb
+F:\Programacion en BD\capaPresentacionWF\bin\Debug\Conexiones.pdb
+F:\Programacion en BD\capaPresentacionWF\obj\Debug\capaPresentacionWF.exe
+F:\Programacion en BD\capaPresentacionWF\obj\Debug\capaPresentacionWF.pdb
+J:\Programacion en BD\capaPresentacionWF\obj\Debug\capaPresentacionWF.exe
+J:\Programacion en BD\capaPresentacionWF\obj\Debug\capaPresentacionWF.pdb
+J:\Programacion en BD\capaPresentacionWF\bin\Debug\capaPresentacionWF.exe
+J:\Programacion en BD\capaPresentacionWF\bin\Debug\capaPresentacionWF.pdb
+J:\Programacion en BD\capaPresentacionWF\bin\Debug\CapaEntidades.dll
+J:\Programacion en BD\capaPresentacionWF\bin\Debug\CapaNegocio.dll
+J:\Programacion en BD\capaPresentacionWF\bin\Debug\Conexiones.dll
+J:\Programacion en BD\capaPresentacionWF\bin\Debug\CapaEntidades.pdb
+J:\Programacion en BD\capaPresentacionWF\bin\Debug\CapaNegocio.pdb
+J:\Programacion en BD\capaPresentacionWF\bin\Debug\Conexiones.pdb

@@ -27,7 +27,7 @@ namespace CapaDatos
 
                 cm = new SqlCommand("Recursos", cnx);
                 cm.Parameters.AddWithValue("@b", 1);
-                cm.Parameters.AddWithValue("idrecursos", "");
+                cm.Parameters.AddWithValue("@idrecursos", "");
                 cm.Parameters.AddWithValue("@nombrer", re.nombrer);
                 cm.Parameters.AddWithValue("@codigo", re.codigo);
                 cm.Parameters.AddWithValue("@descripcion", re.descripcion);
@@ -126,7 +126,6 @@ namespace CapaDatos
                 cm.Parameters.AddWithValue("@nombrer", "");
                 cm.Parameters.AddWithValue("@codigo", "");
                 cm.Parameters.AddWithValue("@descripcion", "");
-                /*cm.Parameters.AddWithValue("@mensaje", co.mensaje);*/
 
                 cm.CommandType = CommandType.StoredProcedure;
                 cnx.Open();

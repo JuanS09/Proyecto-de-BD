@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4DF69031-CD8E-4A51-BBA0-669480E3C511}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CapaPresetacionWeb</RootNamespace>
+    <AssemblyName>CapaPresetacionWeb</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Contacto.aspx" />
+    <Content Include="Inicio.aspx" />
+    <Content Include="Librerias\bootstrap\css\bootstrap-theme.css" />
+    <Content Include="Librerias\bootstrap\css\bootstrap-theme.min.css" />
+    <Content Include="Librerias\bootstrap\css\bootstrap.css" />
+    <Content Include="Librerias\bootstrap\css\bootstrap.min.css" />
+    <Content Include="Librerias\bootstrap\css\carousel.css" />
+    <Content Include="Librerias\bootstrap\css\main.css" />
+    <Content Include="Librerias\bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Librerias\bootstrap\js\bootstrap.js" />
+    <Content Include="Librerias\bootstrap\js\bootstrap.min.js" />
+    <Content Include="Librerias\bootstrap\js\jquery1-11-3.min.js" />
+    <Content Include="Librerias\bootstrap\js\npm.js" />
+    <Content Include="Librerias\css\bootstrap-theme.css" />
+    <Content Include="Librerias\css\bootstrap-theme.min.css" />
+    <Content Include="Librerias\css\bootstrap.css" />
+    <Content Include="Librerias\css\bootstrap.min.css" />
+    <Content Include="Librerias\css\theme-style.css" />
+    <Content Include="Librerias\Estilos\contactos.css" />
+    <Content Include="Librerias\Estilos\estilo.css" />
+    <Content Include="Librerias\Estilos\personalizar.css" />
+    <Content Include="Librerias\Estilos\personalizar2.css" />
+    <Content Include="Librerias\imagenes\arrow_up.png" />
+    <Content Include="Librerias\imagenes\computer.png" />
+    <Content Include="Librerias\imagenes\computer1.png" />
+    <Content Include="Librerias\imagenes\datas.png" />
+    <Content Include="Librerias\imagenes\divice2.png" />
+    <Content Include="Librerias\imagenes\icons.png" />
+    <Content Include="Librerias\imagenes\lab.png" />
+    <Content Include="Librerias\imagenes\lab2.png" />
+    <Content Include="Librerias\imagenes\laptop.png" />
+    <Content Include="Librerias\imagenes\laptop1.png" />
+    <Content Include="Librerias\imagenes\pvc.png" />
+    <Content Include="Librerias\imagenes\recursos.png" />
+    <Content Include="Librerias\imagenes\recursos2.png" />
+    <Content Include="Librerias\imagenes\soporte.png" />
+    <Content Include="Librerias\imagenes\tv.png" />
+    <Content Include="Librerias\js\bootstrap.js" />
+    <Content Include="Librerias\js\bootstrap.min.js" />
+    <Content Include="Librerias\js\holder.js" />
+    <Content Include="Librerias\js\jquery-1.11.3.min.js" />
+    <Content Include="Librerias\js\jquery-1.12.3.js" />
+    <Content Include="Librerias\js\npm.js" />
+    <Content Include="Librerias\js\Nuevo documento de texto.txt" />
+    <Content Include="Librerias\js\responsiveslides.min.js" />
+    <Content Include="VerComentarios.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Contacto.aspx.cs">
+      <DependentUpon>Contacto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contacto.aspx.designer.cs">
+      <DependentUpon>Contacto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contacto.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inicio.aspx.cs">
+      <DependentUpon>Inicio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inicio.aspx.designer.cs">
+      <DependentUpon>Inicio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Maqueta.Master.cs">
+      <DependentUpon>Maqueta.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maqueta.Master.designer.cs">
+      <DependentUpon>Maqueta.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VerComentarios.aspx.cs">
+      <DependentUpon>VerComentarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VerComentarios.aspx.designer.cs">
+      <DependentUpon>VerComentarios.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Maqueta.Master" />
+    <Content Include="Librerias\bootstrap\css\bootstrap-theme.css.map" />
+    <Content Include="Librerias\bootstrap\css\bootstrap-theme.min.css.map" />
+    <Content Include="Librerias\bootstrap\css\bootstrap.css.map" />
+    <Content Include="Librerias\bootstrap\css\bootstrap.min.css.map" />
+    <Content Include="Librerias\bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Librerias\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Librerias\bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Librerias\bootstrap\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Librerias\css\bootstrap-theme.css.map" />
+    <Content Include="Librerias\css\bootstrap-theme.min.css.map" />
+    <Content Include="Librerias\css\bootstrap.css.map" />
+    <Content Include="Librerias\css\bootstrap.min.css.map" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CapaEntidades\CapaEntidades.csproj">
+      <Project>{4d0df62c-4dff-4675-ad43-2421c87e6dcc}</Project>
+      <Name>CapaEntidades</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CapaNegocio\CapaNegocio.csproj">
+      <Project>{c9fc84e8-6632-4d3a-a40d-1866e36e99b2}</Project>
+      <Name>CapaNegocio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:1655/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

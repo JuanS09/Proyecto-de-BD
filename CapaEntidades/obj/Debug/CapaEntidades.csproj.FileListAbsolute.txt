@@ -8,3 +8,13 @@ F:\Programacion en BD\CapaEntidades\bin\Debug\CapaEntidades.pdb
 F:\Programacion en BD\CapaEntidades\obj\Debug\CapaEntidades.csprojResolveAssemblyReference.cache
 F:\Programacion en BD\CapaEntidades\obj\Debug\CapaEntidades.dll
 F:\Programacion en BD\CapaEntidades\obj\Debug\CapaEntidades.pdb
+E:\Programacion en BD\CapaEntidades\bin\Debug\CapaEntidades.dll
+E:\Programacion en BD\CapaEntidades\bin\Debug\CapaEntidades.pdb
+E:\Programacion en BD\CapaEntidades\obj\Debug\CapaEntidades.csprojResolveAssemblyReference.cache
+E:\Programacion en BD\CapaEntidades\obj\Debug\CapaEntidades.dll
+E:\Programacion en BD\CapaEntidades\obj\Debug\CapaEntidades.pdb
+J:\Programacion en BD\CapaEntidades\bin\Debug\CapaEntidades.dll
+J:\Programacion en BD\CapaEntidades\bin\Debug\CapaEntidades.pdb
+J:\Programacion en BD\CapaEntidades\obj\Debug\CapaEntidades.csprojResolveAssemblyReference.cache
+J:\Programacion en BD\CapaEntidades\obj\Debug\CapaEntidades.dll
+J:\Programacion en BD\CapaEntidades\obj\Debug\CapaEntidades.pdb
