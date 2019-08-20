@@ -38,3 +38,35 @@ J:\Programacion en BD\capaPresentacionWF\bin\Debug\Conexiones.dll
 J:\Programacion en BD\capaPresentacionWF\bin\Debug\CapaEntidades.pdb
 J:\Programacion en BD\capaPresentacionWF\bin\Debug\CapaNegocio.pdb
 J:\Programacion en BD\capaPresentacionWF\bin\Debug\Conexiones.pdb
+F:\Proyecto-de-BD\capaPresentacionWF\bin\Debug\capaPresentacionWF.exe.config
+F:\Proyecto-de-BD\capaPresentacionWF\obj\Debug\capaPresentacionWF.exe
+F:\Proyecto-de-BD\capaPresentacionWF\obj\Debug\capaPresentacionWF.pdb
+F:\Proyecto-de-BD\capaPresentacionWF\bin\Debug\capaPresentacionWF.exe
+F:\Proyecto-de-BD\capaPresentacionWF\bin\Debug\capaPresentacionWF.pdb
+F:\Proyecto-de-BD\capaPresentacionWF\bin\Debug\CapaEntidades.dll
+F:\Proyecto-de-BD\capaPresentacionWF\bin\Debug\CapaNegocio.dll
+F:\Proyecto-de-BD\capaPresentacionWF\bin\Debug\Conexiones.dll
+F:\Proyecto-de-BD\capaPresentacionWF\bin\Debug\CapaEntidades.pdb
+F:\Proyecto-de-BD\capaPresentacionWF\bin\Debug\CapaNegocio.pdb
+F:\Proyecto-de-BD\capaPresentacionWF\bin\Debug\Conexiones.pdb
+F:\Proyecto-de-BD\capaPresentacionWF\obj\Debug\capaPresentacionWF.csprojResolveAssemblyReference.cache
+F:\Proyecto-de-BD\capaPresentacionWF\obj\Debug\capaPresentacionWF.fRecursos.resources
+F:\Proyecto-de-BD\capaPresentacionWF\obj\Debug\capaPresentacionWF.Properties.Resources.resources
+F:\Proyecto-de-BD\capaPresentacionWF\obj\Debug\capaPresentacionWF.csproj.GenerateResource.Cache
+J:\Proyecto-de-BD\capaPresentacionWF\bin\Debug\capaPresentacionWF.exe.config
+J:\Proyecto-de-BD\capaPresentacionWF\obj\Debug\capaPresentacionWF.exe
+J:\Proyecto-de-BD\capaPresentacionWF\obj\Debug\capaPresentacionWF.pdb
+J:\Proyecto-de-BD\capaPresentacionWF\obj\Debug\capaPresentacionWF.csprojResolveAssemblyReference.cache
+J:\Proyecto-de-BD\capaPresentacionWF\obj\Debug\capaPresentacionWF.fRecursos.resources
+J:\Proyecto-de-BD\capaPresentacionWF\obj\Debug\capaPresentacionWF.fSolicitud.resources
+J:\Proyecto-de-BD\capaPresentacionWF\obj\Debug\capaPresentacionWF.Properties.Resources.resources
+J:\Proyecto-de-BD\capaPresentacionWF\obj\Debug\capaPresentacionWF.csproj.GenerateResource.Cache
+J:\Proyecto-de-BD\capaPresentacionWF\bin\Debug\capaPresentacionWF.exe
+J:\Proyecto-de-BD\capaPresentacionWF\bin\Debug\capaPresentacionWF.pdb
+J:\Proyecto-de-BD\capaPresentacionWF\bin\Debug\CapaEntidades.dll
+J:\Proyecto-de-BD\capaPresentacionWF\bin\Debug\CapaNegocio.dll
+J:\Proyecto-de-BD\capaPresentacionWF\bin\Debug\Conexiones.dll
+J:\Proyecto-de-BD\capaPresentacionWF\bin\Debug\CapaEntidades.pdb
+J:\Proyecto-de-BD\capaPresentacionWF\bin\Debug\CapaNegocio.pdb
+J:\Proyecto-de-BD\capaPresentacionWF\bin\Debug\Conexiones.pdb
+F:\Proyecto-de-BD\capaPresentacionWF\obj\Debug\capaPresentacionWF.fSolicitud.resources

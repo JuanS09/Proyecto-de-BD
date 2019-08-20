@@ -46,6 +46,7 @@
             this.buttonEditar = new System.Windows.Forms.Button();
             this.TexBoxBuscar = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.buttonBuscar = new System.Windows.Forms.Button();
             this.tabRecursos.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -59,7 +60,7 @@
             this.tabRecursos.Location = new System.Drawing.Point(2, 3);
             this.tabRecursos.Name = "tabRecursos";
             this.tabRecursos.SelectedIndex = 0;
-            this.tabRecursos.Size = new System.Drawing.Size(580, 402);
+            this.tabRecursos.Size = new System.Drawing.Size(638, 402);
             this.tabRecursos.TabIndex = 0;
             // 
             // tabPage1
@@ -180,6 +181,7 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.buttonBuscar);
             this.tabPage2.Controls.Add(this.dataGridViewRecursos);
             this.tabPage2.Controls.Add(this.buttonEliminar);
             this.tabPage2.Controls.Add(this.buttonEditar);
@@ -188,7 +190,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(572, 376);
+            this.tabPage2.Size = new System.Drawing.Size(630, 376);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Detalles";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -205,24 +207,26 @@
             // 
             this.buttonEliminar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonEliminar.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.buttonEliminar.Location = new System.Drawing.Point(445, 40);
+            this.buttonEliminar.Location = new System.Drawing.Point(547, 41);
             this.buttonEliminar.Name = "buttonEliminar";
             this.buttonEliminar.Size = new System.Drawing.Size(75, 23);
             this.buttonEliminar.TabIndex = 3;
             this.buttonEliminar.Text = "Eliminar";
             this.buttonEliminar.UseVisualStyleBackColor = true;
+            this.buttonEliminar.Click += new System.EventHandler(this.buttonEliminar_Click);
             // 
             // buttonEditar
             // 
             this.buttonEditar.BackColor = System.Drawing.Color.Transparent;
             this.buttonEditar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonEditar.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.buttonEditar.Location = new System.Drawing.Point(364, 40);
+            this.buttonEditar.Location = new System.Drawing.Point(466, 41);
             this.buttonEditar.Name = "buttonEditar";
             this.buttonEditar.Size = new System.Drawing.Size(75, 23);
             this.buttonEditar.TabIndex = 2;
             this.buttonEditar.Text = "Editar";
             this.buttonEditar.UseVisualStyleBackColor = false;
+            this.buttonEditar.Click += new System.EventHandler(this.buttonEditar_Click);
             // 
             // TexBoxBuscar
             // 
@@ -241,15 +245,29 @@
             this.label5.TabIndex = 0;
             this.label5.Text = "Buscar";
             // 
+            // buttonBuscar
+            // 
+            this.buttonBuscar.BackColor = System.Drawing.Color.Transparent;
+            this.buttonBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonBuscar.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.buttonBuscar.Location = new System.Drawing.Point(385, 41);
+            this.buttonBuscar.Name = "buttonBuscar";
+            this.buttonBuscar.Size = new System.Drawing.Size(75, 23);
+            this.buttonBuscar.TabIndex = 5;
+            this.buttonBuscar.Text = "Buscar";
+            this.buttonBuscar.UseVisualStyleBackColor = false;
+            this.buttonBuscar.Click += new System.EventHandler(this.buttonBuscar_Click);
+            // 
             // fRecursos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(582, 404);
+            this.ClientSize = new System.Drawing.Size(640, 404);
             this.Controls.Add(this.tabRecursos);
             this.Name = "fRecursos";
             this.Text = "Recursos";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.fRecursos_Load);
             this.tabRecursos.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
@@ -280,6 +298,7 @@
         private System.Windows.Forms.Button buttonEditar;
         private System.Windows.Forms.TextBox TexBoxBuscar;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button buttonBuscar;
     }
 }
 

@@ -14,3 +14,17 @@ J:\Programacion en BD\Conexiones\bin\Debug\CapaEntidades.dll
 J:\Programacion en BD\Conexiones\bin\Debug\CapaEntidades.pdb
 J:\Programacion en BD\Conexiones\obj\Debug\Conexiones.dll
 J:\Programacion en BD\Conexiones\obj\Debug\Conexiones.pdb
+F:\Proyecto-de-BD\Conexiones\bin\Debug\Conexiones.dll
+F:\Proyecto-de-BD\Conexiones\bin\Debug\Conexiones.pdb
+F:\Proyecto-de-BD\Conexiones\bin\Debug\CapaEntidades.dll
+F:\Proyecto-de-BD\Conexiones\bin\Debug\CapaEntidades.pdb
+F:\Proyecto-de-BD\Conexiones\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
+F:\Proyecto-de-BD\Conexiones\obj\Debug\Conexiones.dll
+F:\Proyecto-de-BD\Conexiones\obj\Debug\Conexiones.pdb
+J:\Proyecto-de-BD\Conexiones\bin\Debug\Conexiones.dll
+J:\Proyecto-de-BD\Conexiones\bin\Debug\Conexiones.pdb
+J:\Proyecto-de-BD\Conexiones\bin\Debug\CapaEntidades.dll
+J:\Proyecto-de-BD\Conexiones\bin\Debug\CapaEntidades.pdb
+J:\Proyecto-de-BD\Conexiones\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
+J:\Proyecto-de-BD\Conexiones\obj\Debug\Conexiones.dll
+J:\Proyecto-de-BD\Conexiones\obj\Debug\Conexiones.pdb

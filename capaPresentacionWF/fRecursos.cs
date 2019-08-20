@@ -76,5 +76,50 @@ namespace capaPresentacionWF
         }
 
         }
+
+        private void fRecursos_Load(object sender, EventArgs e)
+        {
+            textBoxId.Visible = false;
+            labelId.Visible = false;
+            dataGridViewRecursos.DataSource = logicaNR.ListarRecursos();
+        }
+
+        private void buttonEditar_Click(object sender, EventArgs e)
+        {
+            textBoxId.Visible = true;
+            textBoxId.Enabled = false;
+            labelId.Visible = true;
+
+            textBoxId.Text = dataGridViewRecursos.CurrentRow.Cells["idrecursos"].Value.ToString();
+            textBoxNombrer.Text = dataGridViewRecursos.CurrentRow.Cells["nombrer"].Value.ToString();
+            textBoxCodigo.Text = dataGridViewRecursos.CurrentRow.Cells["codigo"].Value.ToString();
+            textBoxDescripcion.Text = dataGridViewRecursos.CurrentRow.Cells["descripcion"].Value.ToString();
+
+            tabRecursos.SelectedTab = tabPage1;
+            buttonGuardar.Text = "actualizar";
+        }
+
+        private void buttonEliminar_Click(object sender, EventArgs e)
+        {
+            int codigR = Convert.ToInt32(dataGridViewRecursos.CurrentRow.Cells["idrecursos"].Value.ToString());
+            try
+            {
+                if (logicaNR.EliminarRecursos(codigR) > 0)
+                {
+                    MessageBox.Show("Eliminado con éxito");
+                    dataGridViewRecursos.DataSource = logicaNR.ListarRecursos();
+                }
+            }
+            catch
+            {
+                MessageBox.Show("ERROR al eliminar Recursos");
+            }
+        }
+
+        private void buttonBuscar_Click(object sender, EventArgs e)
+        {
+            List<Recursos> listaRecursos = logicaNR.BuscarRecursos(TexBoxBuscar.Text);
+            dataGridViewRecursos.DataSource = listaRecursos;
+        }
     }
 }

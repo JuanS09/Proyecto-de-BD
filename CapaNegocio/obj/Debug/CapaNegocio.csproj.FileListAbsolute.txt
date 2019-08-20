@@ -16,3 +16,21 @@ J:\Programacion en BD\CapaNegocio\bin\Debug\Conexiones.pdb
 J:\Programacion en BD\CapaNegocio\obj\Debug\CapaNegocio.csprojResolveAssemblyReference.cache
 J:\Programacion en BD\CapaNegocio\obj\Debug\CapaNegocio.dll
 J:\Programacion en BD\CapaNegocio\obj\Debug\CapaNegocio.pdb
+F:\Proyecto-de-BD\CapaNegocio\bin\Debug\CapaNegocio.dll
+F:\Proyecto-de-BD\CapaNegocio\bin\Debug\CapaNegocio.pdb
+F:\Proyecto-de-BD\CapaNegocio\bin\Debug\CapaEntidades.dll
+F:\Proyecto-de-BD\CapaNegocio\bin\Debug\Conexiones.dll
+F:\Proyecto-de-BD\CapaNegocio\bin\Debug\CapaEntidades.pdb
+F:\Proyecto-de-BD\CapaNegocio\bin\Debug\Conexiones.pdb
+F:\Proyecto-de-BD\CapaNegocio\obj\Debug\CapaNegocio.csprojResolveAssemblyReference.cache
+F:\Proyecto-de-BD\CapaNegocio\obj\Debug\CapaNegocio.dll
+F:\Proyecto-de-BD\CapaNegocio\obj\Debug\CapaNegocio.pdb
+J:\Proyecto-de-BD\CapaNegocio\bin\Debug\CapaNegocio.dll
+J:\Proyecto-de-BD\CapaNegocio\bin\Debug\CapaNegocio.pdb
+J:\Proyecto-de-BD\CapaNegocio\bin\Debug\CapaEntidades.dll
+J:\Proyecto-de-BD\CapaNegocio\bin\Debug\Conexiones.dll
+J:\Proyecto-de-BD\CapaNegocio\bin\Debug\CapaEntidades.pdb
+J:\Proyecto-de-BD\CapaNegocio\bin\Debug\Conexiones.pdb
+J:\Proyecto-de-BD\CapaNegocio\obj\Debug\CapaNegocio.csprojResolveAssemblyReference.cache
+J:\Proyecto-de-BD\CapaNegocio\obj\Debug\CapaNegocio.dll
+J:\Proyecto-de-BD\CapaNegocio\obj\Debug\CapaNegocio.pdb

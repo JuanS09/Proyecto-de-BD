@@ -50,10 +50,19 @@
     <Compile Include="fRecursos.Designer.cs">
       <DependentUpon>fRecursos.cs</DependentUpon>
     </Compile>
+    <Compile Include="fSolicitud.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fSolicitud.Designer.cs">
+      <DependentUpon>fSolicitud.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="fRecursos.resx">
       <DependentUpon>fRecursos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fSolicitud.resx">
+      <DependentUpon>fSolicitud.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
 using CapaEntidades;
+using CapaDatos;
 using System.Data;
 
 namespace CapaDatos
@@ -25,7 +26,7 @@ namespace CapaDatos
             {
                 SqlConnection cnx = cn.conectar();
 
-                cm = new SqlCommand("Recursos", cnx);
+                cm = new SqlCommand("Recurso", cnx);
                 cm.Parameters.AddWithValue("@b", 1);
                 cm.Parameters.AddWithValue("@idrecursos", "");
                 cm.Parameters.AddWithValue("@nombrer", re.nombrer);
@@ -54,7 +55,7 @@ namespace CapaDatos
             try
             {
                 SqlConnection cnx = cn.conectar();
-                cm = new SqlCommand("Recursos", cnx);
+                cm = new SqlCommand("Recurso", cnx);
                 cm.Parameters.AddWithValue("@b", 3);
                 cm.Parameters.AddWithValue("@idrecursos", "");
                 cm.Parameters.AddWithValue("@nombrer", "");
@@ -93,7 +94,7 @@ namespace CapaDatos
             {
                 SqlConnection cnx = cn.conectar();
 
-                cm = new SqlCommand("Recursos", cnx);
+                cm = new SqlCommand("Recurso", cnx);
                 cm.Parameters.AddWithValue("@b", 2);
                 cm.Parameters.AddWithValue("@idrecursos", idrec);
                 cm.Parameters.AddWithValue("@nombrer", "");
@@ -120,7 +121,7 @@ namespace CapaDatos
             try
             {
                 SqlConnection cnx = cn.conectar();
-                cm = new SqlCommand("Recursos", cnx);
+                cm = new SqlCommand("Recurso", cnx);
                 cm.Parameters.AddWithValue("@b", 4);
                 cm.Parameters.AddWithValue("@idrecursos", re.idrecursos);
                 cm.Parameters.AddWithValue("@nombrer", "");
@@ -148,7 +149,7 @@ namespace CapaDatos
             {
                 SqlConnection cnx = cn.conectar();
 
-                cm = new SqlCommand("Recursos", cnx);
+                cm = new SqlCommand("Recurso", cnx);
                 cm.Parameters.AddWithValue("@b", 5);
                 cm.Parameters.AddWithValue("@idrecursos", "");
                 cm.Parameters.AddWithValue("@nombrer", dato);
