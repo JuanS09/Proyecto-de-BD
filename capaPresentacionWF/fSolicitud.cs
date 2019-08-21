@@ -36,6 +36,8 @@ namespace capaPresentacionWF
                     objetoSolicitud.horafinal = Convert.ToDateTime(dateTimePickerHoraFinal.Text);
                     objetoSolicitud.carrera = textBoxCarrera.Text;
                     objetoSolicitud.asignatura = textBoxAsignatura.Text;
+                    objetoSolicitud.idrecursos = Convert.ToInt32(comboBoxIdRecurso.Text);
+                    objetoSolicitud.idusuario = Convert.ToInt32(comboBoxIdUsuario.Text);
 
                     if (logicaNS.insertarSolicitud(objetoSolicitud) > 0)
                     {
@@ -49,6 +51,8 @@ namespace capaPresentacionWF
                         dateTimePickerHoraFinal.Text = "";
                         textBoxCarrera.Text = "";
                         textBoxAsignatura.Text = "";
+                        comboBoxIdRecurso.Text = "";
+                        comboBoxIdUsuario.Text = "";
                         tabSolicitud.SelectedTab = tabPage2;
                     }
                     else
@@ -67,6 +71,8 @@ namespace capaPresentacionWF
                     objetoSolicitud.horafinal = Convert.ToDateTime(dateTimePickerHoraFinal.Text);
                     objetoSolicitud.carrera = textBoxCarrera.Text;
                     objetoSolicitud.asignatura = textBoxAsignatura.Text;
+                    objetoSolicitud.idrecursos = Convert.ToInt32(comboBoxIdRecurso.Text);
+                    objetoSolicitud.idusuario = Convert.ToInt32(comboBoxIdUsuario.Text);
 
                     if (logicaNS.EditarSolicitud(objetoSolicitud) > 0)
                     {
@@ -80,6 +86,8 @@ namespace capaPresentacionWF
                         dateTimePickerHoraFinal.Text = "";
                         textBoxCarrera.Text = "";
                         textBoxAsignatura.Text = "";
+                        comboBoxIdRecurso.Text = "";
+                        comboBoxIdUsuario.Text = "";
                         tabSolicitud.SelectedTab = tabPage2;
                     }
                     else

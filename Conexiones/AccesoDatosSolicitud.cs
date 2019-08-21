@@ -36,6 +36,8 @@ namespace CapaDatos
                 cm.Parameters.AddWithValue("@horafinal", sol.horafinal);
                 cm.Parameters.AddWithValue("@carrera", sol.carrera);
                 cm.Parameters.AddWithValue("@asignatura", sol.asignatura);
+                cm.Parameters.AddWithValue("@idrecursos", sol.idrecursos);
+                cm.Parameters.AddWithValue("@idusuario", sol.idusuario);
 
                 cm.CommandType = CommandType.StoredProcedure;
                 cnx.Open();
@@ -70,6 +72,8 @@ namespace CapaDatos
                 cm.Parameters.AddWithValue("@horafinal", "");
                 cm.Parameters.AddWithValue("@carrera", "");
                 cm.Parameters.AddWithValue("@asignatura", "");
+                cm.Parameters.AddWithValue("@idrecursos","");
+                cm.Parameters.AddWithValue("@idusuario", "");
 
                 cm.CommandType = CommandType.StoredProcedure;
                 cnx.Open();
@@ -87,6 +91,9 @@ namespace CapaDatos
                     s.horafinal = Convert.ToDateTime(dr["horafinal"]);
                     s.carrera = dr["carrera"].ToString();
                     s.asignatura = dr["asignatura"].ToString();
+                    s.idrecursos = Convert.ToInt32(dr["idrecursos"].ToString());
+                    s.idusuario = Convert.ToInt32(dr["idusuario"].ToString());
+
                     ListaSolicitud.Add(s);
                 }
             }
@@ -119,6 +126,8 @@ namespace CapaDatos
                 cm.Parameters.AddWithValue("@horafinal", "");
                 cm.Parameters.AddWithValue("@carrera", "");
                 cm.Parameters.AddWithValue("@asignatura", "");
+                cm.Parameters.AddWithValue("@idrecursos", "");
+                cm.Parameters.AddWithValue("@idusuario", "");
 
                 cm.CommandType = CommandType.StoredProcedure;
                 cnx.Open();
@@ -184,6 +193,8 @@ namespace CapaDatos
                 cm.Parameters.AddWithValue("@horafinal", dato);
                 cm.Parameters.AddWithValue("@carrera", dato);
                 cm.Parameters.AddWithValue("@asignatura", dato);
+                cm.Parameters.AddWithValue("@idrecursos", "");
+                cm.Parameters.AddWithValue("@idusuario", "");
 
                 cm.CommandType = CommandType.StoredProcedure;
                 cnx.Open();
@@ -202,6 +213,8 @@ namespace CapaDatos
                     s.horafinal = Convert.ToDateTime(dr["horafinal"]);
                     s.carrera = dr["carrera"].ToString();
                     s.asignatura = dr["asignatura"].ToString();
+                    s.idrecursos = Convert.ToInt32(dr["idrecursos"].ToString());
+                    s.idusuario = Convert.ToInt32(dr["idusuario"].ToString());
                     ListaSolicitud.Add(s);
                 }
             }
